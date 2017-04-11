@@ -2,12 +2,11 @@
 from funciones_analisis import *
 
 # variables para tweetpy
-
-consumer_key = "gBlPQ75wdroVezt5HoYIvErzm"
-consumer_secret = "LJNbWEqePHa7GiNpCRKKSS01FoIOZV7Wdfmnxo9V1GHlHXOVrM"
-access_key = "784264322893557761-SkRdYJjnWUiqbauxRaBBTvMNGA4yP8i"
-access_secret = "BC9p8mnkyTsIqXH7ydYtzbs3QYJ6lvoasy7okjsXgYEdO"
-
+# Agrega tus llaves de tweeter
+consumer_key = "XXXXXXXXXXXXXXXXXXXXXXXXX"
+consumer_secret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+access_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+access_secret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 # variables para oandapy
 
 OA_At = "practice"           # Tipo de cuenta.
@@ -15,7 +14,8 @@ OA_Gn = "M5"                 # Frecuencia de muestra de precio.
 OA_In = "USD_MXN"            # Instrumento Financiero a utilizar.
 OA_Ai = 1742531              # ID de cuenta
 OA_Ta = "America/Monterrey"  # Uso horario
-OA_Tk = "ada4a61b0d5bc0e5939365e01450b614-4121f84f01ad78942c46fc3ac777baa6"
+# Aquí agrega tu token
+OA_TK = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 if __name__ == '__main__':
     usuario_a_consultar = 'realDonaldTrump'
